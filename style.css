@@ -1,0 +1,41 @@
+div{
+	padding: 10px;
+	border: black 2px solid;
+	margin: 25px;
+	background-color: yellow;
+}
+img.special{
+	padding: 10px;
+	border: black 2px solid;
+	margin: 25px;
+	background-color: yellow;
+}
+img.special1{
+	display: block;
+	padding: 10px;
+	border: black 2px solid;
+	margin: 25px;
+	background-color: yellow;
+	margin-left: auto;
+	margin-right: auto;
+}
+img.special2{
+	
+	display: block;
+	padding: 10px;
+	border: black 2px solid;
+	margin: 25px;
+	background-color: yellow;
+
+	position: fixed;
+	top:2px;
+	left: 50px;
+
+
+}
+span.inline{
+	padding: 10px;
+	border: black 2px solid;
+	margin: 25px;
+	background-color: yellow;
+}
