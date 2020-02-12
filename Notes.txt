@@ -1,0 +1,127 @@
+font size:
+px=Standard font size denoted in pixel
+%=relative font size,uses inheritance to inherit basic font size and makes it %times
+em=simply makes inherited mont size emtimes
+
+Keywords:
+xx-small
+x-small
+small=13px
+medium =16px
+large=18px
+x-large
+xx-large
+
+Box Model:
+Background-Color property only applies to Padding and content
+can combine Padding Properties into one:
+	eg:padding:20px 20px 20px 20px
+	That is there is no need for  attributes Padding-top....
+	It is to be noted that the order that the values follow are:top,right,bottom,left(T,R,B,L)
+Same haapens for margin also
+Can combine border properties too
+that is border width,colr,style can be wriiten all together as:
+border: black 2px solid;
+to put margin around any block 0 
+margin:0; 
+--------------------------------------------
+Id atribute has same properties as class,Its just more for coders and less for anything else,works as for exclusive;
+-------------------------------------------- 
+text_align property
+text_align:centre
+text_align:left
+text_align:right
+--------------------------------------
+border
+border-width:thin,medium,thickor use px
+border-style:
+solid,dashed,dotted,double,grove,ridge,inset,outset
+border radius:10pzx
+border-bottom-left-radius:0px
+			  right
+		top-left
+			right
+---------------------------------------------------
+border-top
+border-left
+border-right
+border-bottom
+ 
+can apply these against style,width,color
+----------------------------------------------------
+text decoration:
+underline
+line through
+overline
+----------------------------------------------------
+div html element
+
+Used to divide your web page ionto ligical sections
+Hence it helps us in designing Webpage layout
+
+
+----------------------------------------------------
+<a> tag is used as for hyperlink or anchor tag
+----------------------------------------------------
+The Span HTML element
+
+SPAN is similar to DIV but operates on a sacle scale
+A SPAn element is in-line and selects a small chunk of HTML ,perhspd text indide a paragraph
+So the Div selects several element SPAN works against HTML inside a element
+-----------------------------------------------------
+<!-- 	three forms of audio are .mp3 .wav and ,ogg-->
+-----------------------------------------------------
+special efffects
+hover,visited etc
+we use psuedo class in it whic is recognized by ":"
+----------------------------------------------------------------
+block and inline element
+Block element=they kind of take all the space provided to them
+eg:div,para
+inline=the only take space that is enough for there content
+eg:image,span etc
+---------------------------------------------------------------
+we can convert block to inline and vice cersa
+it is used to centre an image which is an inline element
+command is display:block;
+---------------------------------------------------------------
+float element
+used to float elements
+when we float an element its no longer part of the original flow of the browser
+----------------------------------------------------------------
+absolute position
+syntax
+usin this we absolutely put the element where we want to put it;
+it is 100% outside the flow that is the browser will put it there not even respecting the boundaries or borders of other elements int he webpage
+------------------------------------------------------------------
+fixed position
+the element taht is designated with this position will remain in this position no matter anything;even if you resize the window and are scrolling through the window it will still be at that position;
+mainly used to avoid unavoidable adds
+---------------------------------------------------------------------
+overflow property:
+in cases where text overflows the current boundry of effect we appiied that is background color etc:
+hidden,scroll etc
+----------------------------------------------------------------------
+cursor property:
+see its different forms from web
+----------------------------------------------------------------------
+custom cursor:
+we can use custom cursor
+cursor:url("path")
+usually put in hver effect
+-----------------------------------------------------------------------
+images and text
+to wrap text around an image
+we simply make use of combination of float and margin property
+-----------------------------------------------------------------------
+static positioning is nothing but default way of positioning of elemnts used by browser
+also termed as flow
+-----------------------------------------------------------------------
+
+
+
+
+
+
+
+
