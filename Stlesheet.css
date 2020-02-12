@@ -1,0 +1,94 @@
+
+		body{
+			background-color: #ffcf79;
+			font-size: 25px;
+		}
+
+		button {
+  			background-color: #884A0B; /* Green */
+  			color: #0DD33C;
+  			padding: 15px 32px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 20px;
+			}
+		div{
+			padding: 0px;
+			margin: 2px;
+		}
+		h1.first{
+			text-align: center;
+			text-decoration: underline;
+			color: #447CFF;
+			font-size: 200%;
+			font-family: Helvertica;
+		}
+		
+		#para2{
+			font-weight: bold;
+			color: blue;
+			font-family: Helvertica;
+			font-style: italic;
+			border-color:  black;
+			border-style: solid;
+			border-top-style: dashed;
+			border-width: thick;
+			background-color: #F990FF;
+			margin: 2px;
+			border-top-left-radius: 15px;
+			border-top-right-radius: 15px;  
+		}
+		
+		p.paragraph {
+
+			line-height: 1.15em;
+			background-color: #FF65FD;
+			padding: 20px;
+			border-color: black;
+			border-width: 3px;
+			border-style: solid;
+			margin: 5px;
+			border-radius: 50px; 
+			background-image: url(backcloud.jpg); 
+	}
+		h1.second{
+			text-align: center;
+			font-weight: lighter;
+			text-decoration: underline;
+			color: green;
+			font-size: 1.5em;
+			font-family: Helvertica;
+		}
+		img.image{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 3px;
+			background-color: silver;
+			border-color: black;
+			border-width: 3px;
+			border-style: solid;
+		}
+		#first_part{
+			border-style: solid; 
+		}
+		#Second_part{
+			border-style: solid;
+		}
+		#Third_part{
+			border-style: solid; 
+		}
+		span.Highlight{
+			font-weight: bold;
+			background-color: yellow;
+		}
+		a:link{
+			color: blue;
+		}
+		a:visited{
+			color: #8744FF;
+		}
+		a:hover{
+			color: #F15A51;
+		}
